@@ -10,7 +10,7 @@ As already stated this project is an implementation of such board and made of 3 
 - Java backend (Spring Boot)
 - Angular frontend
 
-The entry point for a user is a website which is available under the address: **http://localhost:4200/**
+The entry point for a user is a website which is available under the address: **http://20.51.235.236:4200/**
 
 ![Kanban](https://github.com/wkrzywiec/kanban-board/blob/master/assets/kanban.gif)
 
@@ -82,7 +82,7 @@ frontend. It supports multiple HTTP REST methods like GET, POST, PUT and
 DELETE for two resources - kanban & task.
 
 Full list of available REST endpoints could be found in Swagger UI,
-which could be called using link: **http://localhost:8080/api/swagger-ui.html**
+which could be called using link: **http://20.51.235.236:8080/api/swagger-ui.html**
 
 
 ![swagger-ui](https://github.com/wkrzywiec/kanban-board/blob/master/assets/swagger.png)
@@ -99,4 +99,4 @@ This is a real endpoint for a user where they can manipulate their
 kanbans and tasks. It consumes the REST API endpoints provided by
 *kanban-app*.
 
-It can be entered using link: **http://localhost:4200/**
+It can be entered using link: **http://20.51.235.236:4200/**
